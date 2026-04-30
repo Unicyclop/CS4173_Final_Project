@@ -1,0 +1,12 @@
+# don't push the virtual environment
+.venv
+env/
+venv/
+
+# ignore pyc files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# macOS dumb files
+.DS_Store
