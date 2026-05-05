@@ -1,7 +1,10 @@
 [project]
 name = "cs4173-final-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Secure Instant Point-to-Point P2P Messaging project for Alice and Bob"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "cryptography>=42.0.0",
+    "dearpygui>=2.0.0",
+]
