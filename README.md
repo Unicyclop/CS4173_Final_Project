@@ -16,3 +16,11 @@ Finally, activate the virtual environment:
 - Linux and macOS: `. .venv/bin/activate`
 
 You can now run the project as needed. Please note that you'll need to activate the virtual environment each time you open a new terminal/shell session. (but don't reinstall `uv` each time you open a terminal, please)
+## Files
+
+- `alice.py`: starts Alice's client side.
+- `bob.py`: starts Bob's server side.
+- `crypto_utils.py`: password derivation, AES encryption/decryption, IVs,
+  padding, HMAC, and per-message key updates.
+- `network_utils.py`: TCP socket connection and JSON packet sending/receiving.
+- `gui.py`: Dear PyGui interface for sending messages and displaying ciphertext and plaintext. Dear PyGui was seen as a better alternative to Tkinter 
