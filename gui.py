@@ -127,7 +127,7 @@ class ChatGUI:
                 on_enter=True,
                 callback=lambda: self.send_message(),
             )
-            dpg.add_same_line()
+            dpg.group(horizontal=True)
             dpg.add_button(label="Send", width=90, callback=lambda: self.send_message())
 
             # Hidden fields used to pass data from the socket thread into the GUI loop.
